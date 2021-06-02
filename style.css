@@ -1,0 +1,79 @@
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/poppins.ttf);
+  }
+  body{
+    margin: 30px;
+    font-family: poppins ;
+}
+header{
+    height: 70px;
+}
+header h2{
+    margin: 20px;
+}
+header ul {
+    margin: 0px;
+    display:flex;
+    align-items: center;
+        }
+header li{
+    margin: 2px ;
+    padding: 5px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+.profile{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    width:150px;
+   height:150px;
+   border-radius: 70px; 
+   margin: 0px 30px;  
+}
+.present{
+    padding:5px 200px 5px;
+}
+.formation{
+    padding:5px 200px 5px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+.white{
+    background-color: white;
+    text-align: center;
+}
+.white h3{
+    color: #0475ba;
+    text-align: center;
+    padding:5px 200px 5px;
+}
+.blue{
+    background-color: #0475ba;
+    color: white;
+}
+.blue h3{
+    text-align: center;
+    padding:5px 200px 5px;
+}
+footer{
+    display: flex;
+    justify-content:flex-start ;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+ #right {
+     margin-left: 180px;
+ }
+ 
