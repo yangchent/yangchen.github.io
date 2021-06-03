@@ -1,13 +1,22 @@
 @font-face {
     font-family: poppins;
-    src: url(/fonts/poppins.ttf);
+    src: url('/fonts/poppins.ttf');
   }
+  @font-face {
+    font-family: poppins-medium;
+    src: url('/fonts/Poppins-Medium.ttf');
+  }
+  
+  /*main-body*/
   body{
-    margin: 30px;
-    font-family: poppins ;
+    margin: 0px;
+    font-family: poppins;
 }
+/*head-navigation*/
 header{
     height: 70px;
+    width: auto;
+    display: flex;
 }
 header h2{
     margin: 20px;
@@ -26,6 +35,7 @@ li a{
     text-decoration: none;
     color:white;
 }
+/*my profile*/
 .profile{
     padding: 10px;
     display: flex;
@@ -34,7 +44,7 @@ li a{
 .profile img{
     width:150px;
    height:150px;
-   border-radius: 70px; 
+   border-radius: 999px; 
    margin: 0px 30px;  
 }
 .present{
@@ -66,7 +76,6 @@ li a{
 }
 footer{
     display: flex;
-    justify-content:flex-start ;
     padding: 10px;
 }
 footer a{
